@@ -1,4 +1,4 @@
-@artifact.package @
+@artifact.package@
 application(title: '@griffon.app.class.name@') {
     scene(fill: "black") {
         hbox(padding: 100) {

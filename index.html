@@ -16,15 +16,15 @@
       margin: 0 auto;
       width: 700px;
     }
-    h1 { font-size: 3.8em; color: #bc8c57; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #bc8c57; }
-    h3 { text-align: center; color: #bc8c57; }
-    a { color: #bc8c57; }
+    h1 { font-size: 3.8em; color: #566838; margin-bottom: 3px; }
+    h1 .small { font-size: 0.4em; opacity: 0.5; }
+    h1 a { text-decoration: none; }
+    h2 { font-size: 1.5em; color: #566838; }
+    h3 { text-align: center; color: #566838; }
+    a { color: #566838; }
     .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
     .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
+    pre { background: #000; color: #0D0; padding: 15px;}
     hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
     .footer { text-align:center; padding-top:30px; font-style: italic; }
   </style>
@@ -46,19 +46,29 @@
       <span class="small">by <a href="http://github.com/deanriverson">deanriverson</a></span></h1>
 
     <div class="description">
-      An archetype used to create JavaFX 2.0 Griffon applications.
+      An <a href="http://griffon.codehaus.org">Griffon</a> archetype used to create JavaFX 2.0 applications.
     </div>
 
     <h2>Using the Archetype</h2>
     <ol>
-      <li>Download the archetype</li>
-      <li>Install the archetype</li>
-      <li>Create an application</li>
+      <li>
+        <p>Download the Archetype</p>
+        <a href="latest/javafx-griffon-archetype.zip">griffon-javafx-archetype.zip</a>
+      </li>
+      <li>
+        <p>Install the Archetype<p>
+        <pre>griffon install-archetype griffon-javafx-archetype.zip</pre>
+      </li>
+      <li>
+        <p>Create an Application<p>
+        <pre>griffon create-application CoolApp -archetype=javafx</pre>
+      </li>
     </ol>
     <br/>
 
     <h2>Authors</h2>
-    <p>Dean Iverson (deanriverson@gmail.com)<br/><br/>      </p>
+    <p>Dean Iverson (deanriverson@gmail.com)</p>
+    <br/>
 
     <h2>Download</h2>
     <p>

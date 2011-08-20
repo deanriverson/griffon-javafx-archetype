@@ -29,7 +29,7 @@ target(name: 'createApplicationProject', description: 'Creates a new app project
 
     // Install the javafx plugin
     Metadata md = Metadata.getInstance(new File("${basedir}/application.properties"))
-    //installPluginExternal md, 'javafx'
+    installPluginExternal md, 'javafx'
 }
 
 setDefaultTarget(createApplicationProject)

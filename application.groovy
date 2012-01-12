@@ -28,16 +28,17 @@ includeTargets << griffonScript('CreateMvc')
  */
 def createBuilderConfig = {
     def builderConfigFile = new File("${basedir}/griffon-app/conf/Builder.groovy")
-    builderConfigFile.append('''
+    builderConfigFile.text = '''
         |root {
         |    'griffon.javafx.JavaFXApplicationBuilder' {
         |        view = '*'
         |    }
-        |}'''.stripMargin())
+        |}'''.stripMargin()
 }
 
 target(name: 'createApplicationProject', description: 'Creates a new app project', prehook: null, posthook: null) {
     createProjectWithDefaults()
+    createBuilderConfig()
 
     // Install the javafx plugin
     Metadata md = Metadata.getInstance(new File("${basedir}/application.properties"))
@@ -47,8 +48,6 @@ target(name: 'createApplicationProject', description: 'Creates a new app project
     argsMap.controller = 'ApplicationController'
     argsMap.model      = 'ApplicationModel'
     createMVC()
-
-    createBuilderConfig()
 }
 
 setDefaultTarget(createApplicationProject)

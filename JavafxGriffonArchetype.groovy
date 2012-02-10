@@ -22,6 +22,8 @@ class JavafxGriffonArchetype {
     String version = '0.1'
     String griffonVersion = '0.9.5-SNAPSHOT > *'
     String license = 'Apache Software License 2.0'
+    String source = 'https://github.com/deanriverson/griffon-javafx-archetype'
+    String documentation = ''
     List authors = [
         [
             name: 'Dean Iverson',
@@ -45,7 +47,4 @@ There's no additional configuration required by this archetype.'
 
 [1]: http://javafx.com/
 '''
-
-    // URL to the archetype's documentation
-    String documentation = 'http://griffon.codehaus.org/Javafx+Archetype'
 }

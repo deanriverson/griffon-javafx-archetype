@@ -47,9 +47,9 @@ command, like this
 
     griffon create-app sample -archetype=javafx
 
-    Configuration
-    -------------
-    There's no additional configuration required by this archetype.
+Configuration
+-------------
+There's no additional configuration required by this archetype.
 
 [1]: http://javafx.com/
 [2]: http://artifacts.griffon-framework.org/archetype/javafx/installation

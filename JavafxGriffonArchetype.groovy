@@ -48,7 +48,7 @@ command, like this
     -------------
     There's no additional configuration required by this archetype.
 
-    [1]: http://javafx.com/
-    [2]: http://artifacts.griffon-framework.org/archetype/javafx/installation
+[1]: http://javafx.com/
+[2]: http://artifacts.griffon-framework.org/archetype/javafx/installation
 '''
 }

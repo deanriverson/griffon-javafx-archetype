@@ -58,7 +58,7 @@ public class @artifact.name@ extends AbstractGriffonView {
 
     @Override
     public void mvcGroupInit(final Map<String, Object> args) {
-        execSync(new Runnable() {
+        execInsideUISync(new Runnable() {
             public void run() {
                 Stage stage = (Stage) getApp().createApplicationContainer();
                 stage.setTitle("@griffon.project.name@");

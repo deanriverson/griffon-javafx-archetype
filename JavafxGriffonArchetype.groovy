@@ -20,7 +20,7 @@
  */
 class JavafxGriffonArchetype {
     String version = '0.1'
-    String griffonVersion = '0.9.5-SNAPSHOT > *'
+    String griffonVersion = '0.9.5 > *'
     String license = 'Apache Software License 2.0'
     String source = 'https://github.com/deanriverson/griffon-javafx-archetype'
     String documentation = ''
@@ -43,7 +43,7 @@ command, like this
 
 Configuration
 -------------
-There's no additional configuration required by this archetype.'
+There's no additional configuration required by this archetype.
 
 [1]: http://javafx.com/
 '''

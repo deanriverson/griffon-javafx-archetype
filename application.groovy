@@ -34,6 +34,8 @@ target(name: 'createApplicationProject', description: 'Creates a new app project
     argsMap.controller = 'ApplicationController'
     argsMap.model      = 'ApplicationModel'
     createMVC()
+
+    updateMetadata(['app.toolkit': 'javafx'], new File("${basedir}/application.properties"))
 }
 
 setDefaultTarget(createApplicationProject)

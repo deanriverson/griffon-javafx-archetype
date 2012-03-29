@@ -32,19 +32,23 @@ class JavafxGriffonArchetype {
     ]
     String title = 'Griffon JavaFX Archetype'
     String description = '''
-Brief description of [JavaFX][1].
+This archetype allows you to quickly create a new [JavaFX][1] Griffon application.
 
 Usage
 ----
-Simply specify the name of the archetype (*javafx*) when invoking the `create-app`
+First, ensure that the archetype is installed on your computer by running the 
+`install-archetype` command.  Instructions can be found on the [Installation][2] tab above.
+
+Then simply specify the name of the archetype (*javafx*) when invoking the `create-app`
 command, like this
 
     griffon create-app sample -archetype=javafx
 
-Configuration
--------------
-There's no additional configuration required by this archetype.
+    Configuration
+    -------------
+    There's no additional configuration required by this archetype.
 
-[1]: http://javafx.com/
+    [1]: http://javafx.com/
+    [2]: http://artifacts.griffon-framework.org/archetype/javafx/installation
 '''
 }

@@ -32,7 +32,10 @@ class JavafxGriffonArchetype {
     ]
     String title = 'Griffon JavaFX Archetype'
     String description = '''
-This archetype allows you to quickly create a new [JavaFX][1] Griffon application.
+This archetype allows you to quickly create a new [JavaFX][1] Griffon application. 
+
+This archetype assumes the existance of JavaFX on your computer with the JAVAFX_HOME 
+environment variable pointing to the location of the JavaFX SDK.
 
 Usage
 ----

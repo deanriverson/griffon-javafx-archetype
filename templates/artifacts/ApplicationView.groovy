@@ -1,4 +1,4 @@
-@artifact.package@stage(title: '@griffon.app.class.name@', visible: true, centerOnScreen: true) {
+@artifact.package@application(title: '@griffon.app.class.name@', sizeToScene: true, centerOnScreen: true) {
     scene(fill: black, width: 400, height: 300) {
         hbox(padding: 80) {
             text(text: "Java", font: "80pt sanserif") {

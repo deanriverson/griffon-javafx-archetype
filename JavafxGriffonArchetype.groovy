@@ -19,8 +19,8 @@
  * @author Andres Almiray
  */
 class JavafxGriffonArchetype {
-    String version = '0.1'
-    String griffonVersion = '0.9.5-SNAPSHOT > *'
+    String version = '0.2'
+    String griffonVersion = '0.9.5 > *'
     String license = 'Apache Software License 2.0'
     List authors = [
         [

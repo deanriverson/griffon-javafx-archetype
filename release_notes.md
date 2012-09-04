@@ -1,3 +1,7 @@
+What's New in Version 0.3
+=========================
+Require Griffon 1.0.2 or higher.
+
 What's New in Version 0.2
 =========================
 Added support for the new 'application' node of the Griffon JavaFX plugin.

@@ -19,8 +19,8 @@
  * @author Andres Almiray
  */
 class JavafxGriffonArchetype {
-    String version = '0.3'
-    String griffonVersion = '1.0.2 > *'
+    String version = '0.4'
+    String griffonVersion = '1.1.0 > *'
     String license = 'Apache Software License 2.0'
     String source = 'https://github.com/deanriverson/griffon-javafx-archetype'
     String documentation = ''
